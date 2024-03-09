@@ -6,7 +6,10 @@
 </head>
 <body>
     <h1>Students Page</h1>
-    <select id="ddl_students"></select>
+    <select id="ddl_students" onchange="DisplayStudent()">
+        <option value="" selected></option>
+    </select>
+    <div id="studentName"></div>
     <script src="index.js"></script>
 </body>
 </html>
