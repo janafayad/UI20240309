@@ -12,15 +12,4 @@ function RenderStudents()
       })
 }
 
-function DisplayStudent()
-{
-    let ddl_students = document.getElementById('ddl_students');
-    let span = document.createElement('span');
-    let divStudentName = document.getElementById('studentName');
-    divStudentName.innerHTML="";
-    let student = ddl_students.value;
-    span.innerHTML = student;
-    divStudentName.appendChild(span);
-}
-
 RenderStudents();
