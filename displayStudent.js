@@ -11,10 +11,11 @@ function DisplayStudent()
     pStudentName.innerHTML="";
 
     let divStudent = document.getElementById('studentDiv');
-    divStudent.innerHTML="";
+    //divStudent.innerHTML="";
     
     let student = ddl_students.value;
     //divStudentName.innerHTML = student;
+    pStudentName.innerHTML = "";
     pStudentName.innerHTML = student;
     divStudent.appendChild(pStudentName);
 }
